@@ -1,3 +1,4 @@
+# http://bioinformatics.bc.edu/clotelab/RNAexpNumNbors/srcCode/DATA_ContactOrder_PDB/ExpNumNbors/corrPlot.R
 panel.cor <- function(x, y, digits=2, cex.cor)
 {
   usr <- par("usr"); on.exit(par(usr))
