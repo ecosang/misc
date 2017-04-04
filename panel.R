@@ -28,3 +28,4 @@ panel.hist <- function(x, ...)
   y <- h$counts; y <- y/max(y)
   rect(breaks[-nB], 0, breaks[-1], y, col="cyan", ...)
 }
+print("use like this -pairs(dat2,lower.panel=panel.smooth, upper.panel=panel.cor,diag.panel=panel.hist)-")
